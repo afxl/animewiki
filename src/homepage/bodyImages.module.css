@@ -1,0 +1,45 @@
+.parent{
+    width:50%;
+    position: relative;
+    margin-top: 80px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin: auto;
+}
+.second{
+    position: absolute;
+    z-index: 2;
+    margin-top: 40px;
+}
+.parent img:hover{
+    transform: translateY(-10px);
+    
+}
+.parent img{
+    margin:10px;
+    height: 24vw;
+    width: 16vw;
+    box-shadow: 0 0 8px;
+    border:1.5px solid blueviolet;
+    border-radius: 4px;
+}
+@media(max-width:720px) {
+    .parent {
+        width: 100%;
+        margin-top:10px
+    }
+        .parent img {
+            height: 35vw;
+            width: 24vw;
+        }
+
+
+}

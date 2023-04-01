@@ -1,0 +1,52 @@
+.parentDiv{
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 40px;
+    margin: auto;
+    margin-top: 20px;
+}
+.poster{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 230px;
+    height: 300px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-left: 0;
+    flex-wrap: wrap;
+}
+li{
+    background-color: rgb(102, 25, 138);
+    color: aliceblue;
+    padding: 6px;
+    border-radius: 10px;
+}
+li:hover{
+    background-color: rgb(78, 19, 106);
+}
+.textArea{
+    color: goldenrod;
+}
+@media(min-width:720px){
+    .textArea {
+            width: 60vw;
+        }
+}
+iframe {
+    border: 0px;
+}
+
+@media(max-width:481px) {
+    iframe {
+        width: 90vw;
+        height: 60vw;
+    }
+}

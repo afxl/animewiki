@@ -1,0 +1,68 @@
+.imageHolder img{
+    width: 100%;    
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
+.imageHolder{
+    width: 100%;
+    height: 260px;
+    z-index: 1;
+    position: relative;
+}
+h3{
+    margin: 0;
+    color: #e2e2e2;
+}
+.mask{
+    width: 100%;
+    height: 260px;
+    z-index: 3;
+    position: absolute;
+    
+    top:0px;
+}
+.mask:hover{
+    background-color: #706f6f25;
+    backdrop-filter: blur(1px)
+        /* box-shadow: inset 2px 2px 0px 200px rgba(180, 173, 173, 0.23); */
+}
+.mask:hover p{
+    opacity: 1;   
+}
+.parentClass{
+    background-color: #1f1f1f;
+    padding: 20px;
+    width: 90%;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: inset  0 0 0 100vw rgba(203, 217, 229, 0.248);
+}
+.title {
+    width: fit-content;
+    border-radius: 6px;
+    padding: 6px;
+    margin: 10px auto;
+    background-color: #4d4d4d;
+    filter: drop-shadow(2px 4px 6px black);
+    box-shadow: inset 0 0  10px rgba(218, 211, 211, 0.279);
+}
+.mask p{
+    color: rgb(183, 125, 228);
+    font-size: larger;
+    font-weight: 700;
+    opacity: 0;
+    border: 3px solid rgb(183, 124, 225);
+    border-radius: 2px;
+    background-color: rgba(203, 217, 229, 0.248);
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px;
+}

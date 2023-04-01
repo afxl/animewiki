@@ -1,0 +1,11 @@
+.parentdiv{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(195, 168, 220);
+    margin: 20px;
+}
+.arrow{
+    color: blueviolet;
+    margin: 0 12px;
+}
