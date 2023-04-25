@@ -9,7 +9,7 @@ const AnimeData=(props)=>{
     }, [url]);
     return (
       <>
-        {Object.keys(data).length!==0 (
+        {Object.keys(data).length!==0 && (
           <div className={styles.parentDiv}>
             <div
               className={styles.poster}
